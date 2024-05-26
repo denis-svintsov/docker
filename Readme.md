@@ -27,12 +27,15 @@
     ```
 
 3. Постройте Docker-образы:
+	Запустите Docker
+
+4. Постройте Docker-образы:
 
     ```bash
     ./build.sh
     ```
 
-4. Запустите проект с помощью Docker Compose:
+5. Запустите проект с помощью Docker Compose:
 
     ```bash
     ./run.sh
