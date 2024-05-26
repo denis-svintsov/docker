@@ -20,25 +20,11 @@
     cd docker
     ```
 
-2. Сделайте скрипты исполняемыми:
+2. Запустите Docker
 
-    ```bash
-    chmod +x build.sh run.sh
-    ```
+3. Запустите файл build.sh
 
-3. Запустите Docker
-
-4. Постройте Docker-образы:
-
-    ```bash
-    ./build.sh
-    ```
-
-5. Запустите проект с помощью Docker Compose:
-
-    ```bash
-    ./run.sh
-    ```
+4. Запустите файл run.sh
 
 5. Откройте браузер и перейдите по адресу [http://localhost:80](http://localhost:80) для фронтенда и [http://localhost:8080](http://localhost:8080) для бэкенда.
 
