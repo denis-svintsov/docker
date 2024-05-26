@@ -20,11 +20,12 @@ services:
 
   mongo:
     image: mongo:latest
+    environment:
+      MONGO_INITDB_DATABASE: computerClub
     ports:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
-      - ./initdb:/docker-entrypoint-initdb.d
 
 volumes:
   mongo-data:
