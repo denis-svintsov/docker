@@ -26,8 +26,7 @@
     chmod +x build.sh run.sh
     ```
 
-3. Постройте Docker-образы:
-	Запустите Docker
+3. Запустите Docker
 
 4. Постройте Docker-образы:
 
